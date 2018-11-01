@@ -1,0 +1,37 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 30,
+        "width": 30
+    },
+    "display": "Air DropdownLabels",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1541105108012x600579537451267200/153659-200.png",
+    "fields": {
+        "AAD": {
+            "caption": "Target Dropdown Id",
+            "doc": "The Id Attribute of the dropdown to modify",
+            "editor": "DynamicValue",
+            "name": "target_dropdown_id",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Display choices (press enter between each option)",
+            "doc": "Enter the labels corresponding to the dropdown values. One on each line. Should be same length as the dropdown values.",
+            "editor": "StaticText",
+            "long_text": true,
+            "name": "display_choices",
+            "rank": 1
+        },
+        "AAF": {
+            "caption": "This input should not be empty",
+            "default_val": false,
+            "doc": "Check this box if you don't want to select an empty value",
+            "editor": "Checkbox",
+            "name": "required",
+            "rank": 2
+        }
+    },
+    "icon": "ion-android-funnel"
+}
