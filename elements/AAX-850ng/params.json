@@ -1,0 +1,57 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "Placeholder Color (copy)",
+    "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1556222910749x161487417536417820/placeholdor_color.svg",
+    "fields": {
+        "AAR": {
+            "caption": "Element's ID",
+            "default_val": "",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "elementId",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "Color",
+            "default_val": "rgba(209, 209, 209, 1)",
+            "editor": "Color",
+            "in_style": false,
+            "name": "color",
+            "rank": 3
+        },
+        "AAT": {
+            "caption": "Enter an Id of the element:",
+            "editor": "Label",
+            "name": "1",
+            "rank": 0
+        },
+        "AAU": {
+            "caption": "Choose your decided color:",
+            "editor": "Label",
+            "name": "2",
+            "rank": 2
+        },
+        "AAV": {
+            "caption": "*Notes:",
+            "editor": "Label",
+            "name": "notes",
+            "rank": 4
+        },
+        "AAW": {
+            "caption": "Please make sure that you are using a correct Id of the element without whitespaces and special characters!",
+            "editor": "Label",
+            "name": "note-1",
+            "rank": 5
+        }
+    },
+    "icon": "ion-android-contract",
+    "property_applications": {
+        "resizable": true
+    }
+}

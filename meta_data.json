@@ -1,0 +1,14 @@
+{
+    "categories": {
+        "0": "productivity",
+        "1": "technical"
+    },
+    "demo_page": "",
+    "description": "1111111111desssss",
+    "image": "//s3.amazonaws.com/appforest_uf/f1679628997206x780035838420549600/download%20%281%29.jpeg",
+    "instructions": "",
+    "license": "open_source",
+    "link": "https://zeroqode.com/pluginssssss",
+    "name": "Dropdown_hvk",
+    "plugin_instructions": "1. Install the plugin\n2. Add the element AirDropdownLabels to your page.\n3. Assign a unique id attribute to your original dropdown element (If you haven’t already done so go to Settings page, General tab and check \"Expose the option to add an Id Attribute ...\").\n4. Enter this same id in the AirDropdwonLabels Element id field.\n5. Enter the list of texts you want the dropdown to display. Must correspond the the values in the dropdown.\n6. If you're list is from a dynamic source, check they \"Use dynamic\" and enter the data source. Must be a list of texts.\n7. If you checked \"This input cannot be empty\" on the dropdown, check the same property on the AirDropdownLabels.\n\nNote: If you have multiple dropdowns make sure each of the id attribute values are different.\n\nFor discussions please see this forum thread: https://forum.bubble.is/t/new-free-plugin-air-static-dropdown-labels/41360"
+}

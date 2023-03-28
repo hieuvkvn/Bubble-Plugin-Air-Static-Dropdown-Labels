@@ -1,0 +1,11 @@
+<script>
+    $(function () {
+        let placeholderRed = "_*_Instead of Red (#FF8585) =>_*_";
+        if (!placeholderRed) {
+            placeholderRed = "#FF8585";
+        }
+        placeholderRed = placeholderRed + "!important"
+        valueToAppend = "<style>input[type='input'].red::-webkit-input-placeholder, input[type='text'].red::-webkit-input-placeholder, input[type='password'].red::-webkit-input-placeholder, input[type='email'].red::-webkit-input-placeholder, textarea.red::-webkit-input-placeholder{/* Chrome/Opera/Safari */ color: "+ placeholderRed + ";}input[type='input'].red::-moz-placeholder, input[type='text'].red::-moz-placeholder, input[type='password'].red::-moz-placeholder, input[type='email'].red::-moz-placeholder, textarea.red::-moz-placeholder{/* Firefox 19+ */ color: "+ placeholderRed + "; opacity: 1;}input[type='input'].red:-ms-input-placeholder, input[type='text'].red:-ms-input-placeholder, input[type='password'].red:-ms-input-placeholder, input[type='email'].red:-ms-input-placeholder, textarea.red:-ms-input-placeholder{/* IE 10+ */ color: "+ placeholderRed + " !important;}input[type='input'].red:-moz-placeholder, input[type='text'].red:-moz-placeholder, input[type='password'].red:-moz-placeholder, input[type='email'].red:-moz-placeholder, textarea.red:-moz-placeholder{/* Firefox 18- */ color: "+ placeholderRed + "; opacity: 1;}</style>";
+        $('head').append(valueToAppend);
+    });
+</script>
